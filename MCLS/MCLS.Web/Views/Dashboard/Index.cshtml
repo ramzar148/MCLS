@@ -1,0 +1,133 @@
+@model MCLS.Web.Controllers.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Dashboard</h2>
+            <p class="text-muted">Welcome to the Maintenance Call Logging System</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card border-primary">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Total Calls</h5>
+                    <h2 class="display-4">@Model.TotalCalls</h2>
+                    <p class="text-muted mb-0">All maintenance calls</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card border-warning">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Open Calls</h5>
+                    <h2 class="display-4">@Model.OpenCalls</h2>
+                    <p class="text-muted mb-0">Pending resolution</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card border-danger">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Critical Calls</h5>
+                    <h2 class="display-4">@Model.CriticalCalls</h2>
+                    <p class="text-muted mb-0">Urgent attention required</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card border-info">
+                <div class="card-body">
+                    <h5 class="card-title text-info">My Calls</h5>
+                    <h2 class="display-4">@Model.MyCalls</h2>
+                    <p class="text-muted mb-0">Reported by you</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card border-success">
+                <div class="card-body">
+                    <h5 class="card-title text-success">Active Users</h5>
+                    <h2 class="display-4">@Model.ActiveUsers</h2>
+                    <p class="text-muted mb-0">System users</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card border-secondary">
+                <div class="card-body">
+                    <h5 class="card-title text-secondary">Active Equipment</h5>
+                    <h2 class="display-4">@Model.ActiveEquipment</h2>
+                    <p class="text-muted mb-0">Registered equipment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Recent Maintenance Calls</h5>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.RecentCalls != null && ((List<MCLS.Web.Models.MaintenanceCall>)ViewBag.RecentCalls).Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Call Number</th>
+                                        <th>Equipment</th>
+                                        <th>Priority</th>
+                                        <th>Status</th>
+                                        <th>Reported Date</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var call in (List<MCLS.Web.Models.MaintenanceCall>)ViewBag.RecentCalls)
+                                    {
+                                        <tr>
+                                            <td>@call.CallNumber</td>
+                                            <td>@(call.Equipment?.Name ?? "N/A")</td>
+                                            <td>
+                                                <span class="badge bg-@(call.Priority?.Name == "Critical" ? "danger" : call.Priority?.Name == "High" ? "warning" : "info")">
+                                                    @(call.Priority?.Name ?? "N/A")
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-@(call.Status == "open" ? "primary" : call.Status == "in_progress" ? "info" : "success")">
+                                                    @call.Status
+                                                </span>
+                                            </td>
+                                            <td>@call.ReportedDate.ToString("yyyy-MM-dd HH:mm")</td>
+                                            <td>
+                                                <a asp-controller="MaintenanceCalls" asp-action="Details" asp-route-id="@call.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-muted">No recent maintenance calls found.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+crit: Microsoft.AspNetCore.Hosting.Diagnostics[6]
+      Application startup exception
+      System.InvalidOperationException: The Negotiate Authentication handler cannot be used on a server that directly supports Windows Authentication. Enable Windows Authentication for the server and the Negotiate Authentication handler will defer to it.
+         at Microsoft.AspNetCore.Authentication.Negotiate.PostConfigureNegotiateOptions.PostConfigure(String name, NegotiateOptions options)
+         at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+         at System.Lazy`1.CreateValue()
+         at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+         at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+         at Microsoft.AspNetCore.Authentication.Negotiate.Internal.NegotiateOptionsValidationStartupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder builder)
+         at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+fail: Microsoft.Extensions.Hosting.Internal.Host[11]
+      Hosting failed to start
+      System.InvalidOperationException: The Negotiate Authentication handler cannot be used on a server that directly supports Windows Authentication. Enable Windows Authentication for the server and the Negotiate Authentication handler will defer to it.
+         at Microsoft.AspNetCore.Authentication.Negotiate.PostConfigureNegotiateOptions.PostConfigure(String name, NegotiateOptions options)
+         at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+         at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+         at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+         at System.Lazy`1.CreateValue()
+         at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+         at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+         at Microsoft.AspNetCore.Authentication.Negotiate.Internal.NegotiateOptionsValidationStartupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder builder)
+         at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+         at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+         at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+Unhandled exception. System.InvalidOperationException: The Negotiate Authentication handler cannot be used on a server that directly supports Windows Authentication. Enable Windows Authentication for the server and the Negotiate Authentication handler will defer to it.
+   at Microsoft.AspNetCore.Authentication.Negotiate.PostConfigureNegotiateOptions.PostConfigure(String name, NegotiateOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.Negotiate.Internal.NegotiateOptionsValidationStartupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\sngoakomonye\source\repos\ramzar148\MCLS\MCLS.Web\Program.cs:line 58

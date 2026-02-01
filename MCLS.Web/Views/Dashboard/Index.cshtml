@@ -1,0 +1,81 @@
+@{
+    ViewData["Title"] = "Dashboard - MCLS";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12">
+            <h1>Welcome to MCLS Dashboard</h1>
+            <p class="lead">Logged in as: @ViewBag.Username</p>
+        </div>
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Maintenance Calls</div>
+                <div class="card-body">
+                    <h5 class="card-title">0</h5>
+                    <p class="card-text">Active calls</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">Work Orders</div>
+                <div class="card-body">
+                    <h5 class="card-title">0</h5>
+                    <p class="card-text">Open work orders</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-header">Equipment</div>
+                <div class="card-body">
+                    <h5 class="card-title">0</h5>
+                    <p class="card-text">Total equipment</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-header">Departments</div>
+                <div class="card-body">
+                    <h5 class="card-title">0</h5>
+                    <p class="card-text">Active departments</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Recent Maintenance Calls</h5>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">No recent maintenance calls</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary mb-2 w-100">Create Maintenance Call</a>
+                    <a href="#" class="btn btn-success mb-2 w-100">Create Work Order</a>
+                    <a href="#" class="btn btn-info mb-2 w-100">Manage Equipment</a>
+                    <a href="#" class="btn btn-secondary mb-2 w-100">View Reports</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+@model IEnumerable<MCLS.Web.Models.MaintenanceCall>
+@{
+    ViewData["Title"] = "Maintenance Calls";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h2>Maintenance Calls</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> New Call
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Call Number</th>
+                            <th>Equipment</th>
+                            <th>Description</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th>Reported By</th>
+                            <th>Reported Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var call in Model)
+                        {
+                            <tr>
+                                <td>@call.CallNumber</td>
+                                <td>@(call.Equipment?.Name ?? "N/A")</td>
+                                <td>@(call.Description.Length > 50 ? call.Description.Substring(0, 50) + "..." : call.Description)</td>
+                                <td>
+                                    <span class="badge bg-@(call.Priority?.Name == "Critical" ? "danger" : call.Priority?.Name == "High" ? "warning" : "info")">
+                                        @(call.Priority?.Name ?? "N/A")
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-@(call.Status == "open" ? "primary" : call.Status == "in_progress" ? "info" : call.Status == "resolved" ? "success" : "secondary")">
+                                        @call.Status
+                                    </span>
+                                </td>
+                                <td>@(call.Reporter?.FullName ?? "N/A")</td>
+                                <td>@call.ReportedDate.ToString("yyyy-MM-dd HH:mm")</td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@call.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

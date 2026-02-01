@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\database_verification.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\database_verification.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\Equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Models\\Equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\PriorityLevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Models\\PriorityLevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\MaintenanceCall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Models\\MaintenanceCall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Services\\ActiveDirectoryService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Services\\ActiveDirectoryService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Data\\MclsDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Data\\MclsDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\MaintenanceCallsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Controllers\\MaintenanceCallsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\MaintenanceCalls\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Views\\MaintenanceCalls\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Dashboard\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Views\\Dashboard\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\CONVERSION_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CONVERSION_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\database_verification.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\database_verification.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\DEPLOYMENT_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DEPLOYMENT_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\TEST_PLAN.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MCLS.Web\\TEST_PLAN.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\TESTING_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TESTING_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TEST_PLAN.md",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\TEST_PLAN.md",
+              "RelativeDocumentMoniker": "MCLS.Web\\TEST_PLAN.md",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\TEST_PLAN.md",
+              "RelativeToolTip": "MCLS.Web\\TEST_PLAN.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-01T08:10:36.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DEPLOYMENT_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\DEPLOYMENT_GUIDE.md",
+              "RelativeDocumentMoniker": "DEPLOYMENT_GUIDE.md",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\DEPLOYMENT_GUIDE.md",
+              "RelativeToolTip": "DEPLOYMENT_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-01T08:08:12.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaintenanceCall.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\MaintenanceCall.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Models\\MaintenanceCall.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\MaintenanceCall.cs",
+              "RelativeToolTip": "MCLS.Web\\Models\\MaintenanceCall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:33.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PriorityLevel.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\PriorityLevel.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Models\\PriorityLevel.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\PriorityLevel.cs",
+              "RelativeToolTip": "MCLS.Web\\Models\\PriorityLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\Department.cs",
+              "RelativeToolTip": "MCLS.Web\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:33.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\Equipment.cs",
+              "RelativeToolTip": "MCLS.Web\\Models\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:33.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Models\\User.cs",
+              "RelativeToolTip": "MCLS.Web\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:33.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TESTING_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\TESTING_GUIDE.md",
+              "RelativeDocumentMoniker": "TESTING_GUIDE.md",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\TESTING_GUIDE.md",
+              "RelativeToolTip": "TESTING_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-01T08:11:41.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "database_verification.sql ",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\database_verification.sql",
+              "RelativeDocumentMoniker": "MCLS.Web\\database_verification.sql",
+              "ToolTip": "database_verification.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-01T08:07:33.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Services\\UserService.cs",
+              "RelativeToolTip": "MCLS.Web\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:50.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActiveDirectoryService.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Services\\ActiveDirectoryService.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Services\\ActiveDirectoryService.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Services\\ActiveDirectoryService.cs",
+              "RelativeToolTip": "MCLS.Web\\Services\\ActiveDirectoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:50.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CONVERSION_SUMMARY.md",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\CONVERSION_SUMMARY.md",
+              "RelativeDocumentMoniker": "CONVERSION_SUMMARY.md",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\CONVERSION_SUMMARY.md",
+              "RelativeToolTip": "CONVERSION_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-01T08:07:20.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\README.md",
+              "RelativeDocumentMoniker": "MCLS.Web\\README.md",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\README.md",
+              "RelativeToolTip": "MCLS.Web\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-01T08:06:09.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MCLS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MCLS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T08:05:51.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MCLS.Web\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MCLS.Web\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T08:05:34.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\MaintenanceCalls\\Index.cshtml",
+              "RelativeDocumentMoniker": "MCLS.Web\\Views\\MaintenanceCalls\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\MaintenanceCalls\\Index.cshtml",
+              "RelativeToolTip": "MCLS.Web\\Views\\MaintenanceCalls\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T08:05:34.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MCLS.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MCLS.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T08:05:34.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\appsettings.json",
+              "ToolTip": "C:\\Users\\sngoakomonye\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T08:05:02.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "MCLS.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\appsettings.json",
+              "RelativeToolTip": "MCLS.Web\\appsettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAABRwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T08:04:57.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\Program.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1845040406\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:04:39.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Program.cs",
+              "RelativeToolTip": "MCLS.Web\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAABRwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:04:24.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MCLS.Web\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:04:13.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MaintenanceCallsController.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\MaintenanceCallsController.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Controllers\\MaintenanceCallsController.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\MaintenanceCallsController.cs",
+              "RelativeToolTip": "MCLS.Web\\Controllers\\MaintenanceCallsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:04:13.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MCLS.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:04:12.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MclsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Data\\MclsDbContext.cs",
+              "RelativeDocumentMoniker": "MCLS.Web\\Data\\MclsDbContext.cs",
+              "ToolTip": "C:\\Users\\sngoakomonye\\source\\repos\\ramzar148\\MCLS\\MCLS\\MCLS.Web\\Data\\MclsDbContext.cs",
+              "RelativeToolTip": "MCLS.Web\\Data\\MclsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:03:50.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
